@@ -1,0 +1,43 @@
+#registration{
+    font-family: serif;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   justify-content: center;
+   align-items: center;
+   display: flex;
+   transform: translate(-50%,-50%);
+    font-size: large;
+	place-items: center;
+	min-height: 200px;
+	border: 1px solid #ccc;
+	padding: 1rem;
+    margin:auto;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+
+}
+img{
+    height: 75%;
+    width: 75%;
+    border-radius: 20px;
+}
+#column{
+    flex: 1;
+    padding: 20px;
+}
+input{
+    border-top-style:hidden ;
+    border-left-style: hidden;
+    border-right-style: hidden;
+    border-bottom-style: groove;
+    outline: none;
+}
+.button{
+ width: 40%;
+}
+body{
+    font-family: sans-serif;
+}
+.bb{
+    width: 35%;
+}
